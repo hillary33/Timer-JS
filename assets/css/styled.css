@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #6bd688;
+    --primary-color-darkens: #4d9961;
+    --second-color: #1d6931;
+    --second-color-dark: #43a35c;
+    --tree-color: #dae3dc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+#container {
+    background-color: var(--tree-color);
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+h1 {
+    color: var(--primary-color-darkens);
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: var(--second-color-dark);
+    color: var(--tree-color);
+    width: 30%;
+    margin: 5px;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: var(--second-color);
+}
+.relogio {
+    font-size: 7em;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    color: var(--second-color);
+}
